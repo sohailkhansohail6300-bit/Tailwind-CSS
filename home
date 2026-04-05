@@ -1,0 +1,166 @@
+{% extends "header_footer.html" %}
+
+
+{% block base %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<div class="h-100 bg-[url('/static/images/4.jpg')] w-full bg-cover bg-center sm:bg-cover md-10 sm:h-120 md:h-125        lg:h-140">
+   <div class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center text-gray-200 pt-5 sm:pt-15 md:pt-20">Fitness That Actually Works</div>
+   <div><p class="text-center text-xl text-white mt-10">
+    This isn’t just another gym. <br>
+    It’s a results-driven training experience built to help you transform faster, safer, <br>and stronger than ever before.
+
+   </p></div>
+   <div class="mt-6 sm:mt-15 md:mt-20 lg:mt-23 text-center">
+    <a href="contact#form">
+        <button class="text-white border border bg-gradient-to-b from-[#006285] to-[#00a5c6] rounded-2xl p-2 px-6 sm:px-9 md:px-13 lg:px-15 hover:scale-105 transition">Start Here</button>
+    </a>
+   </div>
+</div>
+
+<section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                    Your Trusted Partner in Real, Lasting Fitness Results
+                </h2>
+                
+                <p class="text-gray-700 leading-relaxed mb-10">
+                    At <strong>Fitness Pro</strong>, we don’t believe in quick fixes or one-size-fits-all programs. 
+                    We deliver <strong>personalized coaching</strong> — whether you train with us in-person or online — 
+                    combining science-based workouts, realistic nutrition strategies, and consistent support to help 
+                    you finally achieve the body and confidence you’ve been working toward.
+                </p>
+            </div>    
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-4">What We Offer</h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+                Personalized fitness solutions designed for real people with real lives
+            </p>
+
+            <div class="grid w-full md:grid-cols-3 gap-4 lg:gap-12">
+                <div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition border-t-4 border-cyan-500">
+                    <div class="text-cyan-600 text-5xl mb-6"><i class="fas fa-dumbbell"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">1-on-1 Training</h3>
+                    <p class="text-gray-700">Personal training sessions either in-gym or online with custom programming and constant feedback.</p>
+                </div>
+
+                <div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition border-t-4 border-cyan-500">
+                    <div class="text-cyan-600 text-5xl mb-6"><i class="fas fa-laptop-medical"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Online Coaching</h3>
+                    <p class="text-gray-700">Full coaching experience from anywhere — workouts, nutrition, check-ins, video calls, app support.</p>
+                </div>
+
+                <div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition border-t-4 border-cyan-500">
+                    <div class="text-cyan-600 text-5xl mb-6"><i class="fas fa-carrot"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Meal Plans</h3>
+                    <p class="text-gray-700">Custom nutrition plans, grocery lists, recipes, macro tracking — built around your lifestyle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<div class="text-center">
+    <h1 class="my-4 text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold">The Fitness experience</h1>
+    <div class="h-50 bg-[url('static/images/2.jpg')] sm:h-57 md:h-63 lg:h-70 bg-cover bg-center">
+
+    </div>
+</div>
+    <section id="pricing" class="py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Pricing Plans</h2>
+            <div class="grid gap-8 md:grid-cols-3">
+
+                <!-- Basic Plan -->
+                <a href='contact#form'><div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transform transition-all duration-300 flex flex-col min-h-[480px]">
+                    <h3 class="text-xl font-semibold mb-4 text-[#006285]">Basic</h3>
+                    <p class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                        $19<span class="text-lg md:text-xl font-normal text-gray-600">/month</span>
+                    </p>
+                    <ul class="mb-8 space-y-3 text-gray-700 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Access to gym equipment</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> 1 group class per week</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Locker access</li>
+                    </ul>
+                    <button class="w-full py-3.5 bg-gradient-to-b from-[#006285] to-[#00a5c6] text-white font-medium rounded-lg hover:bg-[#004c6a] transition mt-auto">
+                        Choose Plan
+                    </button>
+                </div></a>
+
+                <!-- Standard Plan -->
+                <a href='contact#form'><div class="bg-white rounded-xl shadow-xl p-8 border-2 border-[#006285] hover:scale-105 transform transition-all duration-300 flex flex-col min-h-[480px] relative">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-yellow-400 text-black font-bold px-5 py-1.5 rounded-full text-sm shadow">
+                        MOST POPULAR
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-[#006285]">Standard</h3>
+                    <p class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                        $49<span class="text-lg md:text-xl font-normal text-gray-600">/month</span>
+                    </p>
+                    <ul class="mb-8 space-y-3 text-gray-700 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Unlimited gym access</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> 3 group classes per week</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Personal trainer (1 session/month)</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Locker & shower access</li>
+                    </ul>
+                    <button class="w-full py-3.5 bg-gradient-to-b from-[#006285] to-[#00a5c6] text-white font-medium rounded-lg hover:bg-[#004c6a] transition mt-auto">
+                        Choose Plan
+                    </button>
+                </div></a>
+
+                <!-- Premium Plan -->
+                <a href='contact#form'><div class="bg-white rounded-xl shadow-lg p-8 hover:scale-105 transform transition-all duration-300 flex flex-col min-h-[480px]">
+                    <h3 class="text-xl font-semibold mb-4 text-[#006285]">Premium</h3>
+                    <p class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                        $79<span class="text-lg md:text-xl font-normal text-gray-600">/month</span>
+                    </p>
+                    <ul class="mb-8 space-y-3 text-gray-700 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Unlimited gym access</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Unlimited group classes</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Personal trainer (weekly)</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Diet & nutrition plan</li>
+                        <li class="flex items-center"><i class="fas fa-check mr-3 text-green-500"></i> Locker & shower access</li>
+                    </ul>
+                    <button class="w-full py-3.5 bg-gradient-to-b from-[#006285] to-[#00a5c6] text-white font-medium rounded-lg hover:bg-[#004c6a] transition mt-auto">
+                        Choose Plan
+                    </button>
+                </div></a>
+
+            </div>
+        </div>
+    </section>
+    <section class="py-20 md:py-5 ">
+    <div class="max-w-7xl mx-auto px-2 sm:px-3 lg:px-3">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">
+        Why Choose Fitness Pro?
+      </h2>
+      <p class="text-xl text-gray-600 text-center mb-6 max-w-3xl mx-auto">
+        Because results matter more than promises
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+        <div class="text-center p-8">
+          <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-cyan-100 flex items-center justify-center text-cyan-600 text-4xl">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">100% Personalized</h3>
+          <p class="text-gray-700">No templates. Your plan is built around your body, schedule & preferences.</p>
+        </div>
+
+        <div class="text-center p-8">
+          <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-cyan-100 flex items-center justify-center text-cyan-600 text-4xl">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Real Accountability</h3>
+          <p class="text-gray-700">Weekly check-ins, form feedback, motivation — someone who actually cares.</p>
+        </div>
+
+        <div class="text-center p-8">
+          <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-cyan-100 flex items-center justify-center text-cyan-600 text-4xl">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-4">Proven Results</h3>
+          <p class="text-gray-700">Hundreds of transformations — sustainable change, not short-term fixes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock base %}
