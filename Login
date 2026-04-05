@@ -1,0 +1,27 @@
+{% extends "header_footer.html" %}
+{% block base %}
+
+
+<section class="flex justify-center my-20">
+    <form action="" method="post" class="w-full bg-white shadow-2xl sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl border border-gray-100 rounded-xl">
+        <h1 class="text-gray-600 text-center text-2xl font-bold sm:text-3xl md:text-4xl lg:text-4xl py-6">Login Here</h1>
+        <hr class="mb-6 shadow-xl">
+        <div class="mb-8 sm:mx-10"><label for="" class="font-medium sm:text-xl text-gray-600">Name</label><br>
+        <input type="text" name="name" placeholder="Enter name" class="py-2 w-full sm:px-10 border border-gray-300 rounded-xl">
+        </div>
+        <div class="mb-6 sm:mx-10"><label for="" class="font-medium sm:text-xl text-gray-600">Password</label><br>
+        <input type="text" name="password" placeholder="Enter password" class="py-2 w-full sm:px-10 border border-gray-300 rounded-xl">
+        </div>
+        <div class="mb-6 pt-6 sm:mx-10">
+        <input type="submit" name="password" placeholder="Login" class="py-2 w-full sm:px-10 border border-gray-300 rounded-xl bg-gradient-to-b from-[#006285] to-[#00a5c6] text-white hover:scale-105">
+        </div>
+        <div class="mb-6 align-center text-center">
+            <p>if you don't have an account, <a href="/contact#form" class="text-blue-500 hover:underline">Register here</a></p>
+        </div>
+    </form>
+</section>
+
+{% endblock base %}
+
+
+
