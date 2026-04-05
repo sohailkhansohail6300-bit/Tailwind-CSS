@@ -1,0 +1,120 @@
+{% extends "header_footer.html" %}
+{% block base %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<div>
+   <div class="h-100 bg-[url('/static/images/6.jpg')] w-full bg-cover bg-center sm:bg-cover md-10 sm:h-120 md:h-125     lg:h-140">
+   <div class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center text-black pt-15 sm:pt-30 md:pt-40">Our Services</div>
+   <div>
+
+    <p class="text-center text-xl text-black font-bold mt-5">
+      Personalized training. Real results. No shortcuts.
+   </p></div>
+   </div>
+</div>
+<section class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-16 text-gray-800">Our Fitness Programs</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <a href="#personal"><div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-lg text-center">
+                <i class="fas fa-dumbbell text-4xl text-[#006285] mb-4"></i>
+                <h1 class="text-xl font-bold text-gray-800 mb-3">Personal Training</h1>
+                <p class="text-gray-600 mb-6 italic">
+                    Get one-on-one coaching tailored to your body, goals, and fitness level for faster and safer results.
+                </p>
+            </div></a>
+            <a href="#b"><div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-lg text-center">
+                <i class="fas fa-dumbbell text-4xl text-[#006285] mb-4"></i>
+                <h1 class="text-xl font-bold text-gray-800 mb-3">Strength Training</h1>
+                <p class="text-gray-600 mb-6 italic">
+                    Build lean muscle, increase power, and boost endurance with structured strength programs designed to push your limits.
+                </p>
+            </div></a>
+            <a href="#c"><div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-lg text-center">
+                <i class="fas fa-fire text-4xl text-[#006285] mb-4"></i>
+                <h1 class="text-xl font-bold text-gray-800 mb-3">Weight Loss Programs</h1>
+                <p class="text-gray-600 mb-6 italic">
+                    Burn calories efficiently with proven workouts and smart nutrition guidance that helps you lose fat and keep it off.
+                </p>
+            </div></a>
+            <a href="#d"><div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-lg text-center">
+                <i class="fas fa-dumbbell text-4xl text-[#006285] mb-4"></i>
+                <h1 class="text-xl font-bold text-gray-800 mb-3">Nutrition Plans</h1>
+                <p class="text-gray-600 mb-6 italic">
+                    Simple, personalized meal plans that fuel your workouts, improve recovery, and maximize your transformation.
+                </p>
+            </div>
+            <a href="#e"><div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-lg text-center">
+                <i class="fas fa-dumbbell text-4xl text-[#006285] mb-4"></i>
+                <h1 class="text-xl font-bold text-gray-800 mb-3">Flexibility Training</h1>
+                <p class="text-gray-600 mb-6 italic">
+                    Improve mobility, reduce stress, and enhance recovery with guided stretching and flexibility sessions.
+                </p>
+            </div></a>
+            <a href="#e"><div class="bg-gradient-to-b from-cyan-50 to-white p-8 rounded-2xl shadow-lg text-center">
+                <i class="fas fa-fire text-4xl text-[#006285] mb-4"></i>
+                <h1 class="text-xl font-bold text-gray-800 mb-3">Group Fitness Classes</h1>
+                <p class="text-gray-600 mb-6 italic">
+                   Stay motivated and train with energy in fun, high-intensity group sessions led by expert trainers.
+                </p>
+            </div></a>
+        </div>
+    </div>
+</section>
+<section id="personal">
+    <h1 class="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-4xl text-center mb-6 mt-4 sm:mt-8">Personal Training</h1>
+    <div class="flex justify-center items-center gap-4 m-3 flex-col sm:flex-row sm:px-10">
+        <div class="bg-gray-400 w-full sm:w-1/1 h-64 sm:h-100 md:h-100 lg:h-100"></div>
+        <div class="bg-gray-400 w-full sm:w-1/2 h-98 sm:h-98 md:h-100 lg:h-100">
+            <div class="bg-gray-800 h-50 mb-2"></div>
+            <div class="bg-gray-500 h-48"></div>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="b">
+    <h1 class="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-4xl text-center mb-6 mt-4 sm:mt-8">Strenght Training</h1>
+    <div class="flex justify-center items-center gap-4 m-3 flex-col sm:flex-row sm:px-10">
+        <div class="bg-gray-400 w-full sm:w-1/1 h-64 sm:h-100 md:h-100 lg:h-100"></div>
+        <div class="bg-gray-400 w-full sm:w-1/2 h-98 sm:h-98 md:h-100 lg:h-100">
+            <div class="bg-gray-800 h-50 mb-2"></div>
+            <div class="bg-gray-500 h-48"></div>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="c">
+    <h1 class="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-4xl text-center mb-6 mt-4 sm:mt-8">Weight Loss</h1>
+    <div class="flex justify-center items-center gap-4 m-3 flex-col sm:flex-row sm:px-10">
+        <div class="bg-gray-400 w-full sm:w-1/1 h-64 sm:h-100 md:h-100 lg:h-100"></div>
+        <div class="bg-gray-400 w-full sm:w-1/2 h-98 sm:h-98 md:h-100 lg:h-100">
+            <div class="bg-gray-800 h-50 mb-2"></div>
+            <div class="bg-gray-500 h-48"></div>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="d">
+    <h1 class="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-4xl text-center mb-6 mt-4 sm:mt-8">Nutrations Plane</h1>
+    <div class="flex justify-center items-center gap-4 m-3 flex-col sm:flex-row sm:px-10">
+        <div class="bg-gray-400 w-full sm:w-1/1 h-64 sm:h-100 md:h-100 lg:h-100"></div>
+        <div class="bg-gray-400 w-full sm:w-1/2 h-98 sm:h-98 md:h-100 lg:h-100">
+            <div class="bg-gray-800 h-50 mb-2"></div>
+            <div class="bg-gray-500 h-48"></div>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="e" class="">
+    <h1 class="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-4xl text-center mb-6 mt-4 sm:mt-8">Group Fitness</h1>
+    <div class="flex justify-center items-center gap-4 m-3 flex-col sm:flex-row sm:px-10">
+        <div class="bg-gray-400 w-full sm:w-1/1 h-64 sm:h-100 md:h-100 lg:h-100"></div>
+        <div class="bg-gray-400 w-full sm:w-1/2 h-98 sm:h-98 md:h-100 lg:h-100">
+            <div class="bg-gray-800 h-50 mb-2"></div>
+            <div class="bg-gray-500 h-48"></div>
+        </div>
+    </div>
+</section>
+
+{% endblock base %}
